@@ -1,0 +1,7 @@
+<?php
+function hello_block_info() {
+  $block['hello-block'] = array(
+    'info' => 'Hello world !',
+  );
+  return $block;
+}
